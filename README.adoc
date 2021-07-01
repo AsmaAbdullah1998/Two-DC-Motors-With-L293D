@@ -11,7 +11,7 @@
 :APB_02_INO: https://github.com/AsmaAbdullah1998/Two-DC-Motors-With-L293D/blob/main/Two%20Motors%20With%20L293d.ino 
 :APB_02_IMG: Two Motors With L293d.png
 
-:APB_03_LABEL: Circuit2
+:APB_03_LABEL: Eye Led Robotic 
 :APB_03_LINK: https://www.tinkercad.com/things/6MCpQhbMQhC-controlling-five-motors-with-potentiometer
 :APB_03_BASENAME: circuit2
 :APB_03_INO: https://github.com/AsmaAbdullah1998/Five-Motors-Circuit/blob/main/circuit2.ino
@@ -37,8 +37,10 @@ a|
 a|image::{APB_02_IMG}[link={APB_02_LINK}, width={SCREENSHOOT_WITDH}]
 |===
 
-== Circuit2
-**This circuit is about controlling five Servo Motors by using the potentiometer for each motor **
+== Eye Led Robotic 
+** This circuit is about creating Two single eye Neopixel Led and for increase the fun we can imagine the seven segement display is the nose and the mouth is the Neopixel strip:). 
+* Series Connection: The eye led is connected in series. The most efficient way to run high power LEDs is using a series circuit with a constant current LED driver. Running a series circuit helps to provide the same amount of current to each LED. This means each LED in the circuit will be the same brightness and will not allow a single LED to hog more current than another. When each LED is receiving the same current it helps eliminate issues like thermal runaway.
+* Powering a series circuit: The total voltage of the circuit is the sum of the voltages across each LED. This means you have to supply, at minimum, the sum of the forward voltages of each LED.
 
 ==== {APB_03_LABEL}
 
