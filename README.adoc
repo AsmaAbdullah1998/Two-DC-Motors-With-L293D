@@ -30,7 +30,9 @@
 
 
 == Two Motors With L293D
-**This circuit is just about controlling Two Motors by L293D. Simply:)**
+** This circuit is just about controlling Two Motors by L293D. Simply:)
+* Battery: To calculate how long a battery will last, we need two figures; the battery’s capacity and how much current will be drawn by the motor.
+Batteries measure their capacity in milliamp hours, mAh. This states how many hours the battery can supply 1 mA of current, or how many mA of current it can supply for one hour.The current draw depends on the motor, for this, we can refer to the datasheets found on the product pages. The Typical Performance Characteristics graph shows how the current varies with the input voltage (vibration motors) or with the torque load (DC and gearmotors, at rated voltage). Not all batteries are created equal, make sure the voltage is at an appropriate level. For example, while a 3V motor will likely run from a 1.5V AA battery but you will get better performance connecting two AA batteries in series to create a 3V supply. Conversely, if the motor is rated at 1.5V using a 3V battery runs the risk of immediate damage the motor (as would anything above the Maximum Operating Voltage).The reduced voltage causes motors to turn slower. This reduces the torque handling capabilities for DC and gearmotors, whilst causing vibration motors to vibrate less.
 
 
 ==== {APB_02_LABEL}
