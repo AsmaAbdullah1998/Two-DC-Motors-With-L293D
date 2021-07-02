@@ -11,13 +11,13 @@
 :APB_02_INO: https://github.com/AsmaAbdullah1998/Two-DC-Motors-With-L293D/blob/main/Two%20Motors%20With%20L293d.ino 
 :APB_02_IMG: Two Motors With L293d.png
 
-:APB_03_LABEL: Ex1 
+:APB_03_LABEL: Face of Light (FUN) 
 :APB_03_LINK: https://www.tinkercad.com/things/aSQ4MNUM8o0-ledeye-robotic-
 :APB_03_BASENAME: Eye Led Robotic 
 :APB_03_INO: https://github.com/AsmaAbdullah1998/Two-DC-Motors-With-L293D/blob/main/Eye%20Led%20Robotic.ino
 :APB_03_IMG: Eye Led Robotic.png
 
-:APB_04_LABEL: Ex2 
+:APB_04_LABEL: Eye Led Robotic [Pulse-width modulation](PWM)
 :APB_04_LINK: https://www.tinkercad.com/things/aSQ4MNUM8o0-ledeye-robotic-
 :APB_04_BASENAME: Eye Led Robotic 
 :APB_04_INO: https://github.com/AsmaAbdullah1998/Two-DC-Motors-With-L293D/blob/main/Eye%20Led%20Robotic.ino
@@ -46,6 +46,7 @@ a|image::{APB_02_IMG}[link={APB_02_LINK}, width={SCREENSHOOT_WITDH}]
 == Eye Led Robotic 
 ** This circuit is about creating Two single eye Neopixel Led and for increase the fun we can imagine the seven segement display is the nose and the mouth is the Neopixel strip:). 
 * Series Connection: The eye led is connected in series. The most efficient way to run high power LEDs is using a series circuit with a constant current LED driver. Running a series circuit helps to provide the same amount of current to each LED. This means each LED in the circuit will be the same brightness and will not allow a single LED to hog more current than another. When each LED is receiving the same current it helps eliminate issues like thermal runaway.
+* What is an LED driver you might ask? An LED driver is an electrical device that regulates power to an LED or a string of LEDs. It is a crucial piece to an LED circuit and to operate without one will result in system failure.
 
 
 ==== {APB_03_LABEL}
